@@ -24,11 +24,11 @@ ros::Publisher pub("bot", &lnfr);
 #define rm2 6         //right motor 2
 
 //defing pins for 5 array IR sensors.
-#define sl2 2         //external left sensor
-#define sl1 3         //internal left sensor
-#define sm  12        //middle sensor
-#define sr1 9         //internal right sensor
-#define sr2 4         //external right sensor
+#define l2_sen 2         //external left sensor
+#define l1_sen 3         //internal left sensor
+#define m_sen  12        //middle sensor
+#define r1_sen 9         //internal right sensor
+#define r2_sen 4         //external right sensor
 
 //function for moving forward
 void move_forward(){
